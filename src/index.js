@@ -1,13 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import TableDemo from './tabledemo.jsx';
-import "./style.css"
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./app.jsx";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
   <React.StrictMode>
-    <TableDemo/>
-  </React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
 );
-
-
